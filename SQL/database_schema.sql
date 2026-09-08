@@ -1,12 +1,3 @@
--- Удаление таблиц
-DROP TABLE IF EXISTS Детали_Закупки CASCADE;
-DROP TABLE IF EXISTS Закупка CASCADE;
-DROP TABLE IF EXISTS План_Закупки CASCADE;
-DROP TABLE IF EXISTS Склад CASCADE;
-DROP TABLE IF EXISTS Сектор_Склада CASCADE;
-DROP TABLE IF EXISTS Норма_Запаса CASCADE;
-DROP TABLE IF EXISTS Материал CASCADE;
-DROP TABLE IF EXISTS Поставщик CASCADE;
 
 -- 1. Поставщик
 CREATE TABLE Поставщик (
